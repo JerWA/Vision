@@ -256,17 +256,17 @@
 		<recipe name="cement" unlock_level="1"/>
 		<recipe name="concreteMix" unlock_level="1"/>
 	</perk>
-	<perk name="Steel Smithing" icon="resource" description_key="steelSmithingDesc" title_key="steelSmithing" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="30" group="tools">
-		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="40"/>
+	<perk name="Steel Smithing" icon="resource" description_key="steelSmithingDesc" title_key="steelSmithing" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<requirement skill_level="1" required_skill_name="Metalworkers" required_skill_level="1"/>
 		<recipe name="forgedSteel" unlock_level="1"/>
 		<recipe name="steelArrowHead" unlock_level="1"/>
-		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="50"/>
-		<requirement skill_level="2" required_skill_name="Tool Smithing" required_skill_level="30"/>
+		<requirement skill_level="2" required_skill_name="Metalworkers" required_skill_level="2"/>
 		<recipe name="spring" unlock_level="2"/>
-		<requirement skill_level="3" required_skill_name="Construction Tools" required_skill_level="70"/>
-		<requirement skill_level="3" required_skill_name="Tool Smithing" required_skill_level="50"/>
+		<requirement skill_level="3" required_skill_name="Metalworkers" required_skill_level="3"/>
 		<recipe name="mechanicalParts" unlock_level="3"/>
 	</perk>
+	<player_skill name="Metalworkers" icon="resource" description_key="metalworkerPerkDesc" title_key="metalworkers" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
+	</player_skill>
 	<perk name="Workbench" icon="resource" description_key="workbenchSkillDesc" title_key="workbench" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 		<recipe name="workbench" unlock_level="1"/>
