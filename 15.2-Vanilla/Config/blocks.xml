@@ -1048,8 +1048,8 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="concreteMix" value="10" /> </property>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="pouredConcreteMaster" />
-		<property name="Item" value="concreteMix" />
-		<property name="ItemCount" value="10" />
+		<property name="Item" value="rebarFrameBlock" />
+		<property name="ItemCount" value="1" />
 		<property name="UpgradeHitCount" value="4" />
 	</property>
 	<property name="CustomUpgradeSound" value="Crafting/place_block_concrete" />
