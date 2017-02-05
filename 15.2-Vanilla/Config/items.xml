@@ -8934,4 +8934,34 @@ which does not exist, yet. -->
         </property>
     </item>
 -->
+
+<item id="1500" name="oreFinder">
+	<property name="Meshfile" value="Items/Crafting/Metal/shortMetalPipe" />
+	<property name="HoldType" value="32" />
+	<property name="Material" value="metal" />
+	<property name="Stacknumber" value="1" />
+	<property name="RepairTools" value="rockSmall" />
+ 	<property name="DegradationBreaksAfter" value="false" />
+	<property name="SoundJammed" value="ItemNeedsRepair" />
+	<property name="CustomIcon" value="shortMetalPipe" />
+	<property name="CustomIconTint" value="0066FF" />
+	<property name="Group" value="Tools/Traps" />
+	<property class="Action1">
+		<property name="Class" value="Repair" />
+		<property name="Delay" value="0.4" />
+		<property name="Repair_amount" value="100" />
+		<property name="Upgrade_hit_offset" value="0" />
+		<property name="Sound_start" value="UseActions/repair_block" />
+		<!-- <property name="Allowed_upgrade_items" value="ironOre" /> -->
+	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="0,0" />
+		<property name="BlockDamage" value="0,0" />
+		<property name="DegradationMax" value="100,600" />
+		<property name="DegradationRate" value="1,1" />
+		<property name="DismembermentBaseChance" value="0,0"/>
+		<property name="DismembermentBonus" value="0,0"/>
+	</property>
+</item>
+	
 </items>
