@@ -267,7 +267,7 @@
 	</perk>
 	<player_skill name="Metalworkers" icon="resource" description_key="metalworkerSkillDesc" title_key="metalworkers" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
 	</player_skill>
-	<player_skill name="Chemists" icon="resource" description_key="chemistsSkillDesc" title_key="metalworkers" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
+	<player_skill name="Chemists" icon="resource" description_key="chemistsSkillDesc" title_key="chemists" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
 		<recipe name="gasCan" unlock_level="1"/>
 		<recipe name="gasCanCH" unlock_level="1"/>
 	</player_skill>
