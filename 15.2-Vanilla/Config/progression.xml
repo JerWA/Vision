@@ -269,7 +269,13 @@
 	</player_skill>
 	<player_skill name="Chemists" icon="resource" description_key="chemistsSkillDesc" title_key="chemists" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
 		<recipe name="gasCan" unlock_level="1"/>
-		<recipe name="gasCanCH" unlock_level="1"/>
+		<recipe name="antibiotics" unlock_level="1"/>
+		<recipe name="bioFuel" unlock_level="1"/>
+		<recipe name="gunPowder" unlock_level="1"/>
+	</player_skill>
+	<player_skill name="Farmers" icon="resource" description_key="farmersSkillDesc" title_key="farmers" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
+	</player_skill>
+	<player_skill name="Wilders" icon="resource" description_key="wildersSkillDesc" title_key="wilders" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
 	</player_skill>
 	<perk name="Workbench" icon="resource" description_key="workbenchSkillDesc" title_key="workbench" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
