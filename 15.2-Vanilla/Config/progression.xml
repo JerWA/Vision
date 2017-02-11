@@ -272,6 +272,7 @@
 		<recipe name="antibiotics" unlock_level="1"/>
 		<recipe name="bioFuel" unlock_level="1"/>
 		<recipe name="gunPowder" unlock_level="1"/>
+		<recipe name="moldyBread" unlock_level="1"/>
 	</player_skill>
 	<player_skill name="Farmers" icon="resource" description_key="farmersSkillDesc" title_key="farmers" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
 	</player_skill>
