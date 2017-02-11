@@ -2453,6 +2453,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="electricParts" count="13"/>
 </recipe>
 
+<recipe name="coal" count="1" craft_area="campfire" craft_tool="cookingGrill">
+	<ingredient name="wood" count="50"/>
+</recipe>
+
 </recipes>
 <!-- To do (maybe / later)
 
