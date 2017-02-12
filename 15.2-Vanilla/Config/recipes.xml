@@ -2457,6 +2457,22 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="50"/>
 </recipe>
 
+<recipe name="joinChemists" count="1">
+	<ingredient name="factionToken" count="1"/>
+</recipe>
+
+<recipe name="joinFarmers" count="1">
+	<ingredient name="factionToken" count="1"/>
+</recipe>
+
+<recipe name="joinMetalworkers" count="1">
+	<ingredient name="factionToken" count="1"/>
+</recipe>
+
+<recipe name="joinWilders" count="1">
+	<ingredient name="factionToken" count="1"/>
+</recipe>
+
 </recipes>
 <!-- To do (maybe / later)
 
