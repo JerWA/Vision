@@ -8982,4 +8982,51 @@ which does not exist, yet. -->
 	</property>
 </item>
 
+<item id="1507" name="factionToken">
+	<property name="Meshfile" value="Items/Misc/casino_coinPrefab" />
+	<property name="Material" value="organic" />
+	<property name="HoldType" value="21" />
+	<property name="Stacknumber" value="1" />
+	<property name="EconomicValue" value="0" />
+	<property name="EconomicBundleSize" value="1" />
+	<property name="SellableToTrader" value="false" />
+	<property name="DescriptionKey" value="This token is used to declare your faction loyalty." />
+</item>
+
+<item id="1508" name="joinChemists">
+	<property name="Extends" value="questMaster" />
+	<property class="Action1">
+		<property name="title" value="Chemists Faction Loyalty" />
+		<property name="description" value="Reading this pledges you to the Chemists faction." />
+		<property name="QuestGiven" value="facChemists" />
+	</property>
+</item>
+
+<item id="1509" name="joinFarmers">
+	<property name="Extends" value="questMaster" />
+	<property class="Action1">
+		<property name="title" value="Farmers Faction Loyalty" />
+		<property name="description" value="Reading this pledges you to the Farmers faction." />
+		<property name="QuestGiven" value="facFarmers" />
+	</property>
+</item>
+
+<item id="1510" name="joinMetalworkers">
+	<property name="Extends" value="questMaster" />
+	<property class="Action1">
+		<property name="title" value="Metalworkers Faction Loyalty" />
+		<property name="description" value="Reading this pledges you to the Metalworkers faction." />
+		<property name="QuestGiven" value="facMetalworkers" />
+	</property>
+</item>
+
+<item id="1511" name="joinWilders">
+	<property name="Extends" value="questMaster" />
+	<property class="Action1">
+		<property name="title" value="Wilders Faction Loyalty" />
+		<property name="description" value="Reading this pledges you to the Wilders faction." />
+		<property name="QuestGiven" value="facWilders" />
+	</property>
+</item>
+
 </items>
