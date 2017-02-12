@@ -8973,4 +8973,13 @@ which does not exist, yet. -->
 	</property>
 </item>
 
+<item id="1506" name="clanleaderBook">
+	<property name="Extends" value="schematicMaster" />
+	<property class="Action1">
+		<property name="title" value="Clan Leaders Book" />
+		<property name="description" value="Reading this makes you a clan leader." />
+		<property name="Recipes_to_learn" value="keystoneBlock" />
+	</property>
+</item>
+
 </items>
