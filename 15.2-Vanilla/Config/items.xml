@@ -8963,5 +8963,14 @@ which does not exist, yet. -->
 		<property name="DismembermentBonus" value="0,0"/>
 	</property>
 </item>
-	
+
+<item id="1505" name="chemistsBook">
+	<property name="Extends" value="schematicMaster" />
+	<property class="Action1">
+		<property name="title" value="The Chemists Handbook" />
+		<property name="description" value="Reading this will align you with the Chemists faction..." />
+		<property name="Recipes_to_learn" value="antibiotics,bioFuel,gasCan,gunPowder,moldyBread" />
+	</property>
+</item>
+
 </items>
