@@ -257,26 +257,25 @@
 		<recipe name="concreteMix" unlock_level="1"/>
 	</perk>
 	<perk name="Steel Smithing" icon="resource" description_key="steelSmithingDesc" title_key="steelSmithing" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
-		<requirement skill_level="1" required_skill_name="Metalworkers" required_skill_level="1"/>
+		<requirement skill_level="1" required_skill_name="Metalworkers" required_skill_level="100"/>
 		<recipe name="forgedSteel" unlock_level="1"/>
 		<recipe name="steelArrowHead" unlock_level="1"/>
-		<requirement skill_level="2" required_skill_name="Metalworkers" required_skill_level="2"/>
+		<requirement skill_level="2" required_skill_name="Metalworkers" required_skill_level="100"/>
 		<recipe name="spring" unlock_level="2"/>
-		<requirement skill_level="3" required_skill_name="Metalworkers" required_skill_level="3"/>
+		<requirement skill_level="3" required_skill_name="Metalworkers" required_skill_level="100"/>
 		<recipe name="mechanicalParts" unlock_level="3"/>
 	</perk>
-	<player_skill name="Metalworkers" icon="resource" description_key="metalworkerSkillDesc" title_key="metalworkers" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
+	<player_skill name="Metalworkers" icon="resource" description_key="Do you belong to the Metalworkers faction?" title_key="Metalworkers" max_level="100" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="tools">
 	</player_skill>
-	<player_skill name="Chemists" icon="resource" description_key="chemistsSkillDesc" title_key="chemists" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
-		<recipe name="gasCan" unlock_level="1"/>
-		<recipe name="antibiotics" unlock_level="1"/>
-		<recipe name="bioFuel" unlock_level="1"/>
-		<recipe name="gunPowder" unlock_level="1"/>
-		<recipe name="moldyBread" unlock_level="1"/>
+	<player_skill name="Chemists" icon="resource" description_key="Do you belong to the Chemists faction?" title_key="Chemists" max_level="100" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="tools">
+		<recipe name="gasCan" unlock_level="100"/>
+		<recipe name="antibiotics" unlock_level="100"/>
+		<recipe name="bioFuel" unlock_level="100"/>
+		<recipe name="gunPowder" unlock_level="100"/>
 	</player_skill>
-	<player_skill name="Farmers" icon="resource" description_key="farmersSkillDesc" title_key="farmers" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
+	<player_skill name="Farmers" icon="resource" description_key="Do you belong to the Farmers faction?" title_key="Farmers" max_level="100" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="tools">
 	</player_skill>
-	<player_skill name="Wilders" icon="resource" description_key="wildersSkillDesc" title_key="wilders" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="500" group="tools">
+	<player_skill name="Wilders" icon="resource" description_key="Do you belong to the Wilders faction?" title_key="Wilders" max_level="100" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="tools">
 	</player_skill>
 	<perk name="Workbench" icon="resource" description_key="workbenchSkillDesc" title_key="workbench" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
