@@ -8985,6 +8985,8 @@ which does not exist, yet. -->
 <item id="1507" name="factionToken">
 	<property name="Meshfile" value="Items/Misc/casino_coinPrefab" />
 	<property name="Material" value="organic" />
+	<property name="CustomIcon" value="casinoCoin" />
+	<property name="CustomIconTint" value="192,192,192" />
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="1" />
 	<property name="EconomicValue" value="0" />
