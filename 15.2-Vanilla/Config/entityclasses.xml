@@ -42,8 +42,8 @@
 	<property name="IsEnemyEntity" value="false" />
 	<!-- Speciality properties -->
 	<property name="DropInventoryBlock" value="cntBackpackDropped" />
-	<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="bottledWater,canChili,firstAidBandage,torch" />
-	<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="bottledWater,canChili,firstAidBandage,torch,keystoneBlock" />
+	<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="bottledWater,canChili,firstAidBandage,torch,factionToken" />
+	<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="bottledWater,canChili,firstAidBandage,torch,factionToken" />
 	<property name="ExperienceGain" value="300"/>
 	<property name="LegsExplosionDamageMultiplier" value="1"/>
 	<property name="ArmsExplosionDamageMultiplier" value="1"/>
