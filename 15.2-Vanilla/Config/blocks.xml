@@ -13783,6 +13783,31 @@ kind of free
 	<property name="CanMobsSpawnOn" value="true" />
 </block>
 
+<block id="1933" name="foundry">
+	<property name="Extends" value="furnaceDrawer" />
+	<property name="Class" value="Forge" />
+	<property name="ParticleName" value="forge" />
+	<!-- offsets left,height,forward -->
+	<property name="ParticleOffset" value="0.5,0.2,-0.38" />
+	<property name="Stacknumber" value="1" />
+	<property name="CustomIcon" value="furnaceDrawer" />
+	<property name="CustomIconTint" value="63,63,63" />
+	<property class="RepairItems">
+		<property name="forgedIron" value="10" />
+	</property>
+	<property class="Workstation">
+	<property name="CraftingAreaRecipes" value="forge"/>
+	<property name="Modules" value="tools,output,fuel,material_input"/>
+	<property name="InputMaterials" value="iron,brass,lead,glass,stone,clay"/>
+	</property>
+	<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+	<drop event="Destroy" count="0" />
+	<drop event="Destroy" name="foundry" count="1" tool_category="Disassemble" />
+	<property name="Group" value="Basics,Building" />
+	<property name="DescriptionKey" value="foundryDesc"/>
+	<property name="EconomicValue" value="214" />
+</block>
+
 </blocks>
 
 <!-- Block limit: No block can have an ID greater 2047. -->
