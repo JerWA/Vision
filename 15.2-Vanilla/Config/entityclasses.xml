@@ -845,6 +845,7 @@
 	<property name="Class" value="EntityAnimalRabbit" />
 	<property name="Parent" value="Animals" />
 	<property name="Weight" value="10" />
+	<property name="LootListOnDeath" value="25" />
 	<property name="MaxHealth" value="10" />
 	<property name="PhysicsBody" value="chicken" />
 	<property name="SoundHurt" value="Animals/Chicken/chickenpain" />
