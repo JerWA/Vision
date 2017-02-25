@@ -284,7 +284,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.leaves" value="25" />
 		<property name="DamageBonus.organic" value="8" />
-		<property name="ToolCategory.Butcher" value="0.75" />
+		<property name="ToolCategory.Butcher" value="0.375" />
 		<property name="Sound_harvesting" value="UseActions/open_animal" />
 	</property>
 	<property class="Attributes">
@@ -321,7 +321,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.leaves" value="25" />
 		<property name="DamageBonus.organic" value="10" />
-		<property name="ToolCategory.Butcher" value="1" />
+		<property name="ToolCategory.Butcher" value="0.50" />
 		<property name="Sound_harvesting" value="UseActions/open_animal" />
 	</property>
 	<property class="Attributes">
@@ -361,7 +361,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.leaves" value="25" />
 		<property name="DamageBonus.organic" value="3" />
-		<property name="ToolCategory.Butcher" value="1" />
+		<property name="ToolCategory.Butcher" value="0.50" />
 		<property name="Sound_harvesting" value="UseActions/open_animal" />
 	</property>
 	<property class="Attributes">
@@ -1184,7 +1184,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.earth" value="0.25" />
 		<property name="DamageBonus.organic" value="1" />
 		<property name="ActionExp" value="2" />
-		<property name="ToolCategory.Butcher" value="0.5" />
+		<property name="ToolCategory.Butcher" value="0.25" />
 	</property>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="Repair" />
@@ -1248,7 +1248,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.earth" value=".2" />
 		<property name="DamageBonus.organic" value="1" />
 		<property name="ActionExp" value="4" />
-		<property name="ToolCategory.Butcher" value="0.5" />
+		<property name="ToolCategory.Butcher" value="0.25" />
 		<property name="Sound_harvesting" value="UseActions/open_animal" />
 	</property>
 	<property class="Attributes">
@@ -9029,6 +9029,47 @@ which does not exist, yet. -->
 		<property name="description" value="Reading this pledges you to the Wilders faction." />
 		<property name="QuestGiven" value="facWilders" />
 	</property>
+</item>
+
+<item id="1512" name="wildersKnife">
+	<property name="Meshfile" value="Items/Weapons/Melee/Knives/hunting_knifePrefab" />
+	<property name="Material" value="metal" />
+	<property name="RepairTools" value="forgedIron" />
+	<property name="HoldType" value="36" />
+ 	<property name="DegradationBreaksAfter" value="false" />
+	<property name="DescriptionKey" value="wildersKnifeDesc" />
+	<property name="FuelValue" value="12" />
+	<property name="EconomicValue" value="120" />
+	<property name="CustomIcon" value="huntingKnife" />
+	<property name="CustomIconTint" value="213,41,57" />
+	<property name="SoundJammed" value="ItemNeedsRepair" />
+	<property name="SoundDestroy" value="wooddestroy1" />
+	<property class="Action0"> <!-- AttackAction -->
+		<property name="Class" value="Melee" />
+		<property name="Delay" value="1.2" />
+		<property name="Range" value="2.2" />
+		<property name="Sphere" value="0.1" />
+		<property name="Sound_start" value="swoosh" />
+		<property name="Stamina_usage" value="5" />
+		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.glass" value="25" />
+		<property name="DamageBonus.leaves" value="25" />
+		<property name="DamageBonus.organic" value="10" />
+		<property name="ToolCategory.Butcher" value="2.00" />
+		<property name="Sound_harvesting" value="UseActions/open_animal" />
+	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="11,25" />
+		<property name="BlockDamage" value="1,2" />
+		<property name="DegradationMax" value="100,600" />
+		<property name="DegradationRate" value="1,1" />
+		<property name="DismembermentBaseChance" value="0,0.1"/>
+		<property name="DismembermentBonus" value="0,0.00036"/>
+	</property>
+	<property name="Group" value="Ammo/Weapons" />
+	<property name="ActionSkillGroup" value="Blade Weapons"/>
+	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
 </items>
