@@ -13808,6 +13808,26 @@ kind of free
 	<property name="EconomicValue" value="214" />
 </block>
 
+<block id="1934" name="glassShowerBlockRamp">
+	<property name="Material" value="glass" />
+	<property name="Shape" value="Wedged" />
+	<property name="Place" value="TowardsPlacer90" />
+	<property name="Mesh" value="transparent" />
+	<property name="Texture" value="333" />
+	<property name="DescriptionKey" value="glassGroupDesc"/>
+	<drop event="Destroy" name="brokenGlass" count="1,4" />
+</block>
+
+<block id="1935" name="metalTrussingCNRFull">
+	<property name="Extends" value="metalTrussingBlock" />
+	<property name="Shape" value="WedgedCornerFull" />
+</block>
+
+<block id="1936" name="metalTrussingCNRInside">
+	<property name="Extends" value="metalTrussingBlock" />
+	<property name="Shape" value="WedgedInnerFull" />
+</block>
+
 </blocks>
 
 <!-- Block limit: No block can have an ID greater 2047. -->
