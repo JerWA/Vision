@@ -362,5 +362,12 @@ repeatable="false" category_key="challenge" offer="Join the Farmer faction." dif
 repeatable="false" category_key="challenge" offer="Join the Wilder faction." difficulty="easy">
 	<reward type="Skill" id="Wilders" value="99" />
 </quest>
-	
+
+<quest id="challenge_vstew" name="Feed the Masses - Veggie Stew" subtitle="25 Vegetable Stew" description="People are starving. Make me 25 vegetable stew to help out, and I'll reward you." icon="ui_game_symbol_treasure" 
+	repeatable="true" category_key="challenge" offer="People are starving. Make me 25 vegetable stew to help out, and I'll reward you." difficulty="easy">
+	<objective type="Fetch" id="vegetableStew" value="25" />
+	<reward type="Item" id="casinoCoin" value="500" />
+	<reward type="SkillPoints" value="1" />
+</quest>
+
 </quests>
