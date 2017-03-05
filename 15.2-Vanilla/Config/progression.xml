@@ -271,6 +271,7 @@
 		<recipe name="cookingPot" unlock_level="100"/>
 		<recipe name="forgedIron" unlock_level="100"/>
 		<recipe name="forgedSteel" unlock_level="100"/>
+		<recipe name="foundry" unlock_level="100"/>
 		<recipe name="ironArrowHead" unlock_level="100"/>
 		<recipe name="ironBars" unlock_level="100"/>
 		<recipe name="metalTrussingBlock" unlock_level="100"/>
