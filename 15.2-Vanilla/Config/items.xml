@@ -9076,8 +9076,8 @@ which does not exist, yet. -->
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
 		<property name="title" value="The Metalworkers Handbook" />
-		<property name="description" value="Herin is contained the knowledge of the Metalworkers." />
-		<property name="Recipes_to_learn" value="anvil,bulletCasing,bulletTip,cookingGrill,cookingPot,forgedIron,forgedSteel,ironArrowHead,ironBars,metalTrussingBlock,metalTrussingRamp,metalTrussingCNRFull,metalTrussingCNRInside,minibikeChassis,rebarFrameBlock,rebarFrameCNRInside,rebarFramePillar100,rebarFramePillar50,rebarFrameRamp,steelArrowHead,shortMetalPipe" />
+		<property name="description" value="Herein is contained the knowledge of the Metalworkers." />
+		<property name="Recipes_to_learn" value="anvil,bulletCasing,bulletTip,cookingGrill,cookingPot,forgedIron,forgedSteel,foundry,ironArrowHead,ironBars,metalTrussingBlock,metalTrussingRamp,metalTrussingCNRFull,metalTrussingCNRInside,minibikeChassis,rebarFrameBlock,rebarFrameCNRInside,rebarFramePillar100,rebarFramePillar50,rebarFrameRamp,steelArrowHead,shortMetalPipe" />
 	</property>
 </item>
 
