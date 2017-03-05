@@ -260,12 +260,27 @@
 		<requirement skill_level="1" required_skill_name="Metalworkers" required_skill_level="100"/>
 		<recipe name="forgedSteel" unlock_level="1"/>
 		<recipe name="steelArrowHead" unlock_level="1"/>
-		<requirement skill_level="2" required_skill_name="Metalworkers" required_skill_level="100"/>
 		<recipe name="spring" unlock_level="2"/>
-		<requirement skill_level="3" required_skill_name="Metalworkers" required_skill_level="100"/>
 		<recipe name="mechanicalParts" unlock_level="3"/>
 	</perk>
 	<player_skill name="Metalworkers" icon="resource" description_key="Do you belong to the Metalworkers faction?" title_key="Metalworkers" max_level="100" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="tools">
+		<recipe name="anvil" unlock_level="100"/>
+		<recipe name="bulletCasing" unlock_level="100"/>
+		<recipe name="bulletTip" unlock_level="100"/>
+		<recipe name="cookingGrill" unlock_level="100"/>
+		<recipe name="cookingPot" unlock_level="100"/>
+		<recipe name="forgedIron" unlock_level="100"/>
+		<recipe name="forgedSteel" unlock_level="100"/>
+		<recipe name="ironArrowHead" unlock_level="100"/>
+		<recipe name="ironBars" unlock_level="100"/>
+		<recipe name="metalTrussingBlock" unlock_level="100"/>
+		<recipe name="metalTrussingRamp" unlock_level="100"/>
+		<recipe name="minibikeChassis" unlock_level="100"/>
+		<recipe name="rebarFrameCNRInside" unlock_level="100"/>
+		<recipe name="rebarFramePillar100" unlock_level="100"/>
+		<recipe name="rebarFrameRamp" unlock_level="100"/>
+		<recipe name="steelArrowHead" unlock_level="100"/>
+		<recipe name="shortMetalPipe" unlock_level="100"/>
 	</player_skill>
 	<player_skill name="Chemists" icon="resource" description_key="Do you belong to the Chemists faction?" title_key="Chemists" max_level="100" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="tools">
 		<recipe name="gasCan" unlock_level="100"/>
