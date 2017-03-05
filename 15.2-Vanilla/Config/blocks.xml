@@ -13828,6 +13828,20 @@ kind of free
 	<property name="Shape" value="WedgedInnerFull" />
 </block>
 
+<block id="1937" name="rebarFramePillar50">
+	<property name="Extends" value="rebarFrameMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Pole0.5m" />
+	<property name="CanPickup" value="true" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="pouredConcretePillar50" />
+		<property name="Item" value="concreteMix" />
+		<property name="ItemCount" value="10" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
+	<property name="CustomUpgradeSound" value="Crafting/place_block_concrete" />
+</block>
+
 </blocks>
 
 <!-- Block limit: No block can have an ID greater 2047. -->
