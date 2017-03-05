@@ -9072,4 +9072,13 @@ which does not exist, yet. -->
 	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
+<item id="1513" name="metalworkersBook">
+	<property name="Extends" value="schematicMaster" />
+	<property class="Action1">
+		<property name="title" value="The Metalworkers Handbook" />
+		<property name="description" value="Herin is contained the knowledge of the Metalworkers." />
+		<property name="Recipes_to_learn" value="anvil,bulletCasing,bulletTip,cookingGrill,cookingPot,forgedIron,forgedSteel,ironArrowHead,ironBars,metalTrussingBlock,metalTrussingRamp,minibikeChassis,rebarFrameBlock,rebarFrameCNRInside,rebarFramePillar100,rebarFrameRamp,steelArrowHead,shortMetalPipe" />
+	</property>
+</item>
+
 </items>
