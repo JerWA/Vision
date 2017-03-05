@@ -2494,6 +2494,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="5"/>
 </recipe>
 
+<recipe name="foundry" count="1">
+	<ingredient name="forge" count="2"/>
+</recipe>
+
 </recipes>
 <!-- To do (maybe / later)
 
