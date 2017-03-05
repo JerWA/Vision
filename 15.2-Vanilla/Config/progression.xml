@@ -275,8 +275,11 @@
 		<recipe name="ironBars" unlock_level="100"/>
 		<recipe name="metalTrussingBlock" unlock_level="100"/>
 		<recipe name="metalTrussingRamp" unlock_level="100"/>
+		<recipe name="metalTrussingCNRFull" unlock_level="100"/>
+		<recipe name="metalTrussingCNRInside" unlock_level="100"/>
 		<recipe name="minibikeChassis" unlock_level="100"/>
 		<recipe name="rebarFrameCNRInside" unlock_level="100"/>
+		<recipe name="rebarFramePillar50" unlock_level="100"/>
 		<recipe name="rebarFramePillar100" unlock_level="100"/>
 		<recipe name="rebarFrameRamp" unlock_level="100"/>
 		<recipe name="steelArrowHead" unlock_level="100"/>
