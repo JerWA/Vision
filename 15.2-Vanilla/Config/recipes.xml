@@ -2498,6 +2498,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="forge" count="2"/>
 </recipe>
 
+<recipe name="fertilizer" count="1" craft_area="cementMixer">
+	<ingredient name="rottingFlesh" count="10"/>
+	<ingredient name="femur" count="10"/>
+	<ingredient name="dirtFragment" count="10"/>
+</recipe>
+
 </recipes>
 <!-- To do (maybe / later)
 
