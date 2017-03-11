@@ -1858,7 +1858,7 @@ which does not exist, yet. -->
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
 	<property name="CraftingSkillGroup" value="Gun Smithing"/>
-	<property name="EconomicValue" value="14" />
+	<property name="EconomicValue" value="20" /> <!-- 14 -->
 	<property name="Group" value="Ammo/Weapons" />
 </item>
 
@@ -1868,7 +1868,7 @@ which does not exist, yet. -->
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
 	<property name="CraftingSkillGroup" value="Gun Smithing"/>
-	<property name="EconomicValue" value="17" />
+	<property name="EconomicValue" value="23" /> <!-- 17 -->
 	<property name="Group" value="Ammo/Weapons" />
 </item>
 
@@ -1879,7 +1879,7 @@ which does not exist, yet. -->
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="CraftingSkillGroup" value="Gun Smithing"/>
-	<property name="EconomicValue" value="19" />
+	<property name="EconomicValue" value="25" /> <!-- 19 -->
 </item>
 
 <item id="153" name="762mmBullet">
@@ -1888,7 +1888,7 @@ which does not exist, yet. -->
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
 	<property name="CraftingSkillGroup" value="Gun Smithing"/>
-	<property name="EconomicValue" value="19" />
+	<property name="EconomicValue" value="25" /> <!-- 19 -->
 	<property name="Group" value="Ammo/Weapons" />
 </item>
 
@@ -1898,7 +1898,7 @@ which does not exist, yet. -->
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="250" /> <!-- STK ammo -->
 	<property name="DropScale" value="4" />
-	<property name="EconomicValue" value="17" />
+	<property name="EconomicValue" value="23" /> <!-- 17 -->
 	<property class="Attributes">
 		<property name="GetQualityFromWeapon" value="true" />
 		<property name="EntityDamage" value="3.6,9" />
@@ -1913,7 +1913,7 @@ which does not exist, yet. -->
 	<property name="Material" value="brass" />
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="128" /> <!-- STK ammo -->
-	<property name="EconomicValue" value="56" />
+	<property name="EconomicValue" value="60" /> <!-- 56 -->
 	<property class="Attributes">
 		<property name="GetQualityFromWeapon" value="true" />
 		<property name="EntityDamage" value="100,150" />
