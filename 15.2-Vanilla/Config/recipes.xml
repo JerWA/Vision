@@ -2504,6 +2504,40 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="dirtFragment" count="10"/>
 </recipe>
 
+<recipe name="machete" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="20"/>
+	<ingredient name="forgedSteel" count="1"/>
+	<ingredient name="leather" count="1"/>
+	<ingredient name="facialPiercings" count="1"/>
+	</recipe>
+
+<recipe name="wildersKnife" count="1">
+	<ingredient name="forgedIron" count="10"/>
+	<ingredient name="wood" count="8"/>
+</recipe>
+
+<recipe name="pineSeed" count="1">
+	<ingredient name="wood" count="10"/>
+	<ingredient name="fertilizer" count="1"/>
+	<ingredient name="treePlant02" count="1"/>
+</recipe>
+
+<recipe name="mapleSeed" count="1">
+	<ingredient name="wood" count="10"/>
+	<ingredient name="fertilizer" count="1"/>
+	<ingredient name="treePlant02" count="1"/>
+</recipe>
+
+<recipe name="blueSpruceSeed" count="1">
+	<ingredient name="wood" count="10"/>
+	<ingredient name="fertilizer" count="1"/>
+	<ingredient name="treePlant02" count="1"/>
+</recipe>
+
+<recipe name="leatherDuster" count="1">
+	<ingredient name="leather" count="40"/>
+</recipe>
+
 </recipes>
 <!-- To do (maybe / later)
 
