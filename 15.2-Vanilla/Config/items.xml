@@ -6845,7 +6845,7 @@ which does not exist, yet. -->
 <item id="913" name="beerBook">
 	<property name="Extends" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Recipes_to_learn" value="hopSeed,beer,signShopColdBeer" />
+		<property name="Recipes_to_learn" value="beer,signShopColdBeer" />
 		<property name="Skills_to_gain" value="Science" />
 	</property>
 </item>
@@ -9086,7 +9086,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="title" value="The Farmers Almanac" />
 		<property name="description" value="Reading this will align you with the Farmers faction..." />
-		<property name="Recipes_to_learn" value="fertilizer" />
+		<property name="Recipes_to_learn" value="fertilizer,cornSeed,potatoSeed,blueberrySeed,cottonSeed,goldenrodSeed,aloeSeed,chrysanthemumSeed,mushroomSeed,hopSeed" />
 	</property>
 </item>
 
