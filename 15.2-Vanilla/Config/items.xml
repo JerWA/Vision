@@ -9095,7 +9095,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="title" value="The Wilders Guide" />
 		<property name="description" value="Reading this will align you with the Wilders faction..." />
-		<property name="Recipes_to_learn" value="machete,wildersKnife,pineSeed,mapleSeed,blueSpruceSeed" />
+		<property name="Recipes_to_learn" value="machete,wildersKnife,pineSeed,mapleSeed,blueSpruceSeed,leatherDuster" />
 	</property>
 </item>
 
