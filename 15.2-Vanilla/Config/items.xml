@@ -8969,7 +8969,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="title" value="The Chemists Handbook" />
 		<property name="description" value="Reading this will align you with the Chemists faction..." />
-		<property name="Recipes_to_learn" value="antibiotics,bioFuel,gasCan,gunPowder,moldyBread" />
+		<property name="Recipes_to_learn" value="antibiotics,bioFuel,gasCan,gunPowder,moldyBread,fertilizer" />
 	</property>
 </item>
 
@@ -9078,6 +9078,24 @@ which does not exist, yet. -->
 		<property name="title" value="The Metalworkers Handbook" />
 		<property name="description" value="Herein is contained the knowledge of the Metalworkers." />
 		<property name="Recipes_to_learn" value="anvil,bulletCasing,bulletTip,cookingGrill,cookingPot,forgedIron,forgedSteel,foundry,ironArrowHead,ironBars,metalTrussingBlock,metalTrussingRamp,metalTrussingCNRFull,metalTrussingCNRInside,minibikeChassis,rebarFrameBlock,rebarFrameCNRInside,rebarFramePillar100,rebarFramePillar50,rebarFrameRamp,steelArrowHead,shortMetalPipe" />
+	</property>
+</item>
+
+<item id="1514" name="farmersBook">
+	<property name="Extends" value="schematicMaster" />
+	<property class="Action1">
+		<property name="title" value="The Farmers Almanac" />
+		<property name="description" value="Reading this will align you with the Farmers faction..." />
+		<property name="Recipes_to_learn" value="fertilizer" />
+	</property>
+</item>
+
+<item id="1515" name="wildersBook">
+	<property name="Extends" value="schematicMaster" />
+	<property class="Action1">
+		<property name="title" value="The Wilders Guide" />
+		<property name="description" value="Reading this will align you with the Wilders faction..." />
+		<property name="Recipes_to_learn" value="machete,wildersKnife,pineSeed,mapleSeed,blueSpruceSeed" />
 	</property>
 </item>
 
