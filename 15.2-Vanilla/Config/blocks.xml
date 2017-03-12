@@ -13808,12 +13808,13 @@ kind of free
 	<property name="EconomicValue" value="214" />
 </block>
 
-<block id="1934" name="glassShowerBlockRamp">
+<block id="1934" name="glassShowerRamp">
 	<property name="Material" value="glass" />
 	<property name="Shape" value="Wedged" />
 	<property name="Place" value="TowardsPlacer90" />
 	<property name="Mesh" value="transparent" />
-	<property name="Texture" value="333" />
+	<property name="Texture" value="333" /> <!-- 285 for business glass -->
+	<property name="CustomIcon" value="glassBusinessBlock" />
 	<property name="DescriptionKey" value="glassGroupDesc"/>
 	<drop event="Destroy" name="brokenGlass" count="1,4" />
 </block>
@@ -13821,17 +13822,23 @@ kind of free
 <block id="1935" name="metalTrussingCNRFull">
 	<property name="Extends" value="metalTrussingBlock" />
 	<property name="Shape" value="WedgedCornerFull" />
+	<property name="CustomIcon" value="scrapIronFrameCNRFull" />
+	<property name="CustomIconTint" value="63,63,63" />
 </block>
 
 <block id="1936" name="metalTrussingCNRInside">
 	<property name="Extends" value="metalTrussingBlock" />
 	<property name="Shape" value="WedgedInnerFull" />
+	<property name="CustomIcon" value="scrapIronFrameCNRInside" />
+	<property name="CustomIconTint" value="63,63,63" />
 </block>
 
 <block id="1937" name="rebarFramePillar50">
 	<property name="Extends" value="rebarFrameMaster" />
 	<property name="Shape" value="New" />
 	<property name="Model" value="Pole0.5m" />
+	<property name="CustomIcon" value="rebarFramePillar100" />
+	<property name="CustomIconTint" value="63,63,63" />
 	<property name="CanPickup" value="true" />
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="pouredConcretePillar50" />
