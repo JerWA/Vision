@@ -813,7 +813,7 @@
 		</effect>
 	</crafting_skill>
 	<perk name="Leather Tanning" icon="armor_leather" description_key="leatherTanningPerkDesc" title_key="leatherTanningPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
-		<requirement skill_level="1" required_skill_name="Leatherworking" required_skill_level="1"/>
+		<requirement perk_level="1" required_skill_name="Wilders" required_skill_level="100"/>
 		<recipe name="leather" unlock_level="1"/>
 	</perk>
 
