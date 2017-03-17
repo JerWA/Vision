@@ -306,6 +306,7 @@
 		<recipe name="hopSeed" unlock_level="100"/>
 		<recipe name="yuccaSeed" unlock_level="100"/>
 		<recipe name="herbalAntibiotics" unlock_level="100"/>
+		<recipe name="aloeCream" unlock_level="100"/>
 	</player_skill>
 	<player_skill name="Wilders" icon="resource" description_key="Do you belong to the Wilders faction?" title_key="Wilders" max_level="100" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="tools">
 		<recipe name="wildersKnife" unlock_level="100"/>
