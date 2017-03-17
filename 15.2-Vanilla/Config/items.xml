@@ -7065,7 +7065,6 @@ which does not exist, yet. -->
 	<property name="EconomicValue" value="500" />
 	<property name="CustomIcon" value="schematicMaster" />
 	<property class="Action1">
-		<property name="Recipes_to_learn" value="herbalAntibiotics" />
 		<property name="Skills_to_gain" value="Science" />
 	</property>
 </item>
@@ -9086,7 +9085,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="title" value="The Farmers Almanac" />
 		<property name="description" value="Reading this will align you with the Farmers faction..." />
-		<property name="Recipes_to_learn" value="fertilizer,cornSeed,potatoSeed,blueberrySeed,cottonSeed,goldenrodSeed,aloeSeed,chrysanthemumSeed,mushroomSeed,hopSeed,yuccaSeed" />
+		<property name="Recipes_to_learn" value="fertilizer,cornSeed,potatoSeed,blueberrySeed,cottonSeed,goldenrodSeed,aloeSeed,chrysanthemumSeed,mushroomSeed,hopSeed,yuccaSeed,herbalAntibiotics" />
 	</property>
 </item>
 
