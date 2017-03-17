@@ -1,4 +1,4 @@
-﻿Key,Source,Context,Changes,English,French,German,Klingon,Spanish
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish
 adobeGroupDesc,blocks,Block,KgNone,In desert regions adobe is easy to make and it requires no special tools.,"Dans les régions désertes, l'adobe est simple à fabriquer. Vous n'avez besoin d'aucun outil en particulier.",Adobe ist in Wüstenregionen einfach herzustellen und es erfordert keine besonderen Werkzeuge.,,"En regiones desérticas, el adobe es fácil de hacer. Además, no se necesitan herramientas especiales."
 adobePeachBlock,blocks,Block,KgNone,Adobe Peach Block,Bloc d'adobe pêche,Pfirsich-Adobe – Block,,Bloque de adobe color melocotón
 adobePeachCNRFull,blocks,Block,KgNone,Adobe Peach Full Corner,Angle complet en adobe pêche,Pfirsich-Adobe – Komplette Ecke,,Esquina de adobe color melocotón
@@ -1202,7 +1202,7 @@ cntTreeStump,blocks,Container,KgNone,Tree Stump,Souche d'arbre,Baumstumpf,,Tocó
 cntVendingMachine,blocks,Container,KeyTrunk FrNone GrNone KgNone SpNone,Player Vending Machine,,,,
 cntVendingMachine2,blocks,Container,KeyTrunk FrNone GrNone KgNone SpNone,Vending Machine,,,,
 cntVendingMachineTrader,blocks,Container,KeyTrunk FrNone GrNone KgNone SpNone,Vending Machine Rental,,,,
-cntVendingMachineGroupDesc,blocks,Container,KeyTrunk FrNone GrNone KgNone SpNone,Buy goods at vending machines with Duke coins or get your own to sell goods.,,,,
+cntVendingMachineGroupDesc,blocks,Container,KeyTrunk FrNone GrNone KgNone SpNone,Buy goods at vending machines with Bucks or get your own to sell goods.,,,,
 cntWallOven,blocks,Container,KgNone,Wall Oven,Four mural,Wandofen,,Horno empotrable
 cntWallSafe,blocks,Container,KgNone,Wall Safe,Coffre-fort mural,Wandtresor,,Caja fuerte empotrable
 cntWallSafeInsecure,blocks,Container,KgNone,Wall Safe Insecure,Coffre-fort mural précaire,Wandtresor ungesichert,,Caja fuerte empotrable poco segura
@@ -2114,8 +2114,8 @@ canEmpty,items,Item,KgNone,Empty Can,Conserve vide,Leere Dose,,Lata vacía
 canEmptyDesc,items,Item,KgNone,An empty can which you can scrap or fill with water.,Une conserve vide que vous pouvez recycler ou remplir d'eau.,"Eine leere Dose, die zerlegt oder mit Wasser gefüllt werden kann.",,Una lata vacía que puedes desechar o llenar de agua.
 carBattery,items,Item,KgNone,Lead Car Battery,Batterie de voiture en plomb,Bleibatterie für Autos,,Batería de coche de plomo
 carBatteryDesc,items,Item,KgNone,"Car batteries can be used in vehicles, scrapped for lead in your backpack or smelted at the forge for lead.","Les batteries de voiture peuvent être utilisées sur les véhicules, recyclées en plomb dans votre sac à dos ou fondues dans la forge pour obtenir du plomb.","Autobatterien können für Fahrzeuge benutzt, für Blei im Rucksack zerlegt oder in der Schmiede eingeschmolzen werden.",,"Las baterías de coche se pueden usar en vehículos, despedazar para tener plomo en tu mochila o fundir en la fragua para obtener plomo."
-casinoCoin,items,Item,KgNone,Duke's Casino Token,Jeton du Duke's Casino,Jeton aus Dukes Kasino,,Ficha del casino de Duke
-casinoCoinDesc,items,Item,KgNone,A Duke's casino coin. After the epidemic and war it became the main currency for trading in Navezgane.,"Une pièce du Duke's Casino. Après l'épidémie et la guerre, ces pièces sont devenues la monnaie principale de Navezgane.",Ein Jeton aus Dukes Kasino. Nach der Seuche und dem Krieg wurden diese Jetons zur Hauptwährung in Navezgane.,,Una moneda del casino de Duke. Se convirtió en la moneda principal para comerciar en Navezgane tras la epidemia y la guerra.
+casinoCoin,items,Item,KgNone,Buck's Casino Token,Jeton du Buck's Casino,Jeton aus Bucks Kasino,,Ficha del casino de Buck
+casinoCoinDesc,items,Item,KgNone,A Buck's casino coin. After the epidemic and war it became the main currency for trading in Navezgane.,"Une pièce du Buck's Casino. Après l'épidémie et la guerre, ces pièces sont devenues la monnaie principale de Navezgane.",Ein Jeton aus Bucks Kasino. Nach der Seuche und dem Krieg wurden diese Jetons zur Hauptwährung in Navezgane.,,Una moneda del casino de Buck. Se convirtió en la moneda principal para comerciar en Navezgane tras la epidemia y la guerra.
 cement,items,Item,KgNone,Cement,Ciment,Zement,,Cemento
 cementDesc,items,Item,EnChanged,Cement can be used to craft flagstone and concrete. Making concrete requires the 'concrete' perk and a cement mixer.,"Après avoir acheté l'avantage du béton, le ciment sert à fabriquer de la dalle et du béton.",Zement kann benutzt werden um Steinplatten zu fertigen. Für Beton brauchst du auch die Fertigkeit „Beton“ und einen Zementmischer.,,Se puede usar el cemento para fabricar baldosas. También puedes producir hormigón una vez que hayas comprado el beneficio de hormigón.
 clayLump,items,Item,KgNone,Lump of Clay,Morceau d'argile,Lehmklumpen,,Terrón de arcilla
@@ -2410,7 +2410,7 @@ qc_silenceofthelambs,items,Zombie Challenge Note,KgNone,Silence of the Lambs,Dé
 qc_yournothingspecial,items,Zombie Challenge Note,KgNone,You're Nothing Special,Défi « Tu n'as rien de spécial »,Herausforderung - Du bist nichts Besonderes,,Desafío “No eres especial”
 qc_ZombieGroupDesc,items,Zombie Challenge Note,KgNone,A strange note I found while looting. It's from the Crazy Jake Clan.,Un drôle de message que j'ai trouvé pendant que je pillais. Il provient du clan de Jake le cinglé.,"Eine seltsame Notiz, die ich beim Plündern gefunden habe. Sie ist vom Klan von Crazy Jake.",,Descubrí una nota extraña mientras saqueaba. Es del clan Jake el Loco.
 barter,progression,Perk,KeyTrunk FrNone GrNone KgNone SpNone,Barter,,,,
-barterDesc,progression,Perk,KeyTrunk FrNone GrNone KgNone SpNone,Reduce the cost of goods and sell them for more Dukes by improving this skill.,,,,
+barterDesc,progression,Perk,KeyTrunk FrNone GrNone KgNone SpNone,Reduce the cost of goods and sell them for more Bucks by improving this skill.,,,,
 betterLeadThanDead,progression,Perk,KgNone,Better Lead Than Dead,Du plomb dans la cervelle,Besser als Blei in der Birne,,Mejor con plomo que sin aplomo
 betterLeadThanDeadDesc,progression,Perk,GrChanged,This is my rifle. There are many like it but this one does more damage with every rank.,"Voici mon fusil. Il en existe beaucoup comme ça, mais celui-ci inflige de plus en plus de dégâts au fil des rangs.","Dies ist mein Gewehr. Es gibt viele wie dieses, aber dieses hier verursacht mit jedem Rang mehr Schaden.",,"Este es mi rifle. Hay muchos otros, pero este inflige más daño con cada nivel."
 boomStick,progression,Perk,KgNone,Boom Stick,Le bâton qui fait boom,Schießeisen,,Escoba de fuego
@@ -4371,3 +4371,11 @@ joinMetalworkers,items,Item,KgNone,Join the Metalworkers,,,,
 joinMetalworkersDesc,items,Item,KgNone,Join the Metalworkers faction.,,,,
 joinWilders,items,Item,KgNone,Join the Wilders,,,,
 joinWildersDesc,items,Item,KgNone,Join the Wilders faction.,,,,
+wildersKnife,items,Melee,KgNone,Wilders Knife,,,,
+wildersKnifeDesc,items,Melee,KgNone,Even better for slashing zombies and gutting animals for meat than the hunting knife.,,,,
+rebarFramePillar50,blocks,Block,KgNone,Rebar Frame Pillar 50,,,,
+metalTrussingCNRInside,blocks,Block,KgNone,Metal Trussing Inside Corner,,,,
+metalTrussingCNRFull,blocks,Block,KgNone,Metal Trussing Full Corner,,,,
+glassShowerRamp,blocks,Block,KgNone,Shower Glass Ramp,,,,
+foundry,blocks,Workstation,KgNone,Foundry Furnace,,,,
+foundryDesc,blocks,Workstation,KgNone,"Used to smelt metals into tools, weapons and alloys. Unlock more recipes by adding an anvil, calipers or tool and die set.",,,,
