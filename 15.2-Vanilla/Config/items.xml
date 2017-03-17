@@ -9085,7 +9085,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="title" value="The Farmers Almanac" />
 		<property name="description" value="Reading this will align you with the Farmers faction..." />
-		<property name="Recipes_to_learn" value="fertilizer,cornSeed,potatoSeed,blueberrySeed,cottonSeed,goldenrodSeed,aloeSeed,chrysanthemumSeed,mushroomSeed,hopSeed,yuccaSeed,herbalAntibiotics" />
+		<property name="Recipes_to_learn" value="fertilizer,cornSeed,potatoSeed,blueberrySeed,cottonSeed,goldenrodSeed,aloeSeed,chrysanthemumSeed,mushroomSeed,hopSeed,yuccaSeed,herbalAntibiotics,aloeCream" />
 	</property>
 </item>
 
