@@ -9098,4 +9098,42 @@ which does not exist, yet. -->
 	</property>
 </item>
 
+<item id="1516" name="Herbs">
+    <property name="Meshfile" value="Items/Misc/parcel" />
+    <property name="Material" value="organic" />
+    <property name="HoldType" value="15" />
+	<property name="CraftingIngredientTime" value="5" />
+	<property name="Stacknumber" value="50" /> <!-- STK food -->
+	<property name="CustomIcon" value="blueberries" />
+	<property name="CustomIconTint" value="213,41,57" />
+    <property class="Action1">
+        <property name="Class" value="Eat" />
+        <property name="Delay" value="1.0" />
+        <property name="Use_time" value="..." />
+        <property name="Gain_health" value="3" />
+        <property name="Gain_food" value="0" />
+        <property name="Gain_water" value="0" />
+        <property name="Sound_start" value="UseActions/player_eating" />
+    </property>
+    <property name="Group" value="Food/Cooking" />
+</item>
+
+<item id="1517" name="herbSeed">
+	<property name="Meshfile" value="Items/Food/seed_blueberryPrefab" />
+	<property name="Material" value="organic" />
+	<property name="HoldType" value="21" />
+	<property name="Stacknumber" value="500" /> <!-- STK resource -->
+	<property name="EconomicValue" value="12" />
+	<property name="EconomicBundleSize" value="5" />
+	<property name="CustomIcon" value="blueberrySeed" />
+	<property name="CustomIconTint" value="213,41,57" />
+	<property class="Action1">
+		<property name="Class" value="PlaceAsBlock" />
+		<property name="Delay" value="0.5" />
+		<property name="Blockname" value="plantedHerbs" />
+	</property>
+	<property name="Group" value="Food/Cooking" />
+	<property name="PickupJournalEntry" value="farmingTip" />
+</item>
+
 </items>
