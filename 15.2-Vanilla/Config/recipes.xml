@@ -2538,6 +2538,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="leather" count="40"/>
 </recipe>
 
+<recipe name="paper" count="1" craft_area="workbench">
+	<ingredient name="wood" count="10"/>
+</recipe>
+
+<recipe name="herbSeed" count="1" >
+    	<ingredient name="Herbs" count="1" />
+</recipe>
+
 </recipes>
 <!-- To do (maybe / later)
 
