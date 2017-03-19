@@ -6091,7 +6091,7 @@ which does not exist, yet. -->
 		<property name="Buff" value="eatFood_2_Trigger" />
 		<property name="Gain_water" value="0" />
 		<property name="Gain_stamina" value="2" />
-		<property name="Gain_wellness" value="0.08" />
+		<!-- <property name="Gain_wellness" value="0.08" /> -->
 		<property name="Sound_start" value="UseActions/player_eating" />
 		<!-- jar from cooking food <property name="Create_item" value="emptyJar" /> -->
 	</property>
@@ -6253,7 +6253,7 @@ which does not exist, yet. -->
 		<property name="Gain_food" value="10" />
 		<property name="Buff" value="eatFood_9_Trigger" />
 		<property name="Gain_water" value="-5" />
-		<property name="Gain_wellness" value="0.8" />
+		<!-- <property name="Gain_wellness" value="0.8" /> -->
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Smell" value="largeSmell" />
@@ -6275,7 +6275,7 @@ which does not exist, yet. -->
 		<property name="Gain_food" value="10" />
 		<property name="Buff" value="eatFood_9_Trigger" />
 		<property name="Gain_water" value="-2" />
-		<property name="Gain_wellness" value="0.8" />
+		<!-- <property name="Gain_wellness" value="0.8" /> -->
 		<property name="Sound_start" value="UseActions/player_eating" />
 	</property>
 	<property name="Smell" value="mediumSmell" />
@@ -6297,7 +6297,7 @@ which does not exist, yet. -->
 		<property name="Gain_food" value="10" />
 		<property name="Buff" value="eatFood_9_Trigger" />
 		<property name="Gain_water" value="0" />
-		<property name="Gain_wellness" value="0.8" />
+		<!-- <property name="Gain_wellness" value="0.8" /> -->
 		<property name="Sound_start" value="UseActions/player_eating" />
 		<!-- jar from cooking food <property name="Create_item" value="emptyJar" /> -->
 	</property>
@@ -6412,7 +6412,7 @@ which does not exist, yet. -->
 		<property name="Buff" value="eatFood_3_Trigger" />
 		<property name="Gain_water" value="0" />
 		<property name="Gain_stamina" value="0" />
-		<property name="Gain_wellness" value="0.32" />
+		<!-- <property name="Gain_wellness" value="0.32" /> -->
 		<property name="Sound_start" value="UseActions/player_eating" />
 		<!-- jar from cooking food <property name="Create_item" value="emptyJar" /> -->
 	</property>
@@ -9085,7 +9085,7 @@ which does not exist, yet. -->
 	<property class="Action1">
 		<property name="title" value="The Farmers Almanac" />
 		<property name="description" value="Reading this will align you with the Farmers faction..." />
-		<property name="Recipes_to_learn" value="fertilizer,cornSeed,potatoSeed,blueberrySeed,cottonSeed,goldenrodSeed,aloeSeed,chrysanthemumSeed,mushroomSeed,hopSeed,yuccaSeed,herbalAntibiotics,aloeCream" />
+		<property name="Recipes_to_learn" value="fertilizer,cornSeed,potatoSeed,blueberrySeed,cottonSeed,goldenrodSeed,aloeSeed,chrysanthemumSeed,mushroomSeed,hopSeed,yuccaSeed,herbalAntibiotics,aloeCream,cornmeal,cornbread,meatstew,blueberryPie,baconAndEggs,vegetableStew,goldenRodTea,redTea" />
 	</property>
 </item>
 
