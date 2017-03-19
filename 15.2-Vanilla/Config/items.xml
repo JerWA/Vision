@@ -7670,7 +7670,7 @@ which does not exist, yet. -->
 	<property name="Weight" value="5" />
 	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
 	<property name="EconomicValue" value="5" />
-	<property name="EconomicBundleSize" value="5000" />
+	<property name="EconomicBundleSize" value="50" />
 	<property name="SellableToTrader" value="false" />
 	<property name="Group" value="Resources" />
 </item>
