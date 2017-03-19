@@ -13859,7 +13859,7 @@ kind of free
     	<property name="IsTerrainDecoration" value="true" />
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="PlantGrowing.IsNext" value="plantedHerbsHarvest" />
-	<property name="PlantGrowing.GrowthRate" value="180" />
+	<property name="PlantGrowing.GrowthRate" value="126" />
 	<property name="PlantGrowing.FertileLevel" value="1" />
 	<property name="PlantGrowing.IsRandom" value="false" />
 	<property name="Group" value="Food/Cooking" />
