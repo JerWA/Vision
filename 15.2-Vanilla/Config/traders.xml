@@ -1300,20 +1300,19 @@ workstations
 	
 	<!-- Vending Machines found in the world. -->
 	<trader_info id="4" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
-		<trader_items count="10">
+		<trader_items count="7">
 			<item name="bottledWater" count="1,2"/>
-			<item name="goldenRodTea" count="1,2"/>
-			<item name="redTea" count="1,2"/>
-			<item name="coffee" count="1,2"/>
-			<item name="beer" count="1,2"/>
 			<item name="canMiso" count="1,2"/>
-			<item name="canPasta" count="1,2"/>
-			<item name="canSoup" count="1,2"/>
+			<item name="rockSmall" count="5000,10000"/>
+			<item name="clayLump" count="5000,10000"/>
+			<item name="dirtFragment" count="5000,10000"/>
+			<item name="crushedSand" count="5000,10000"/>
+			<item name="ironFragment" count="5000,10000"/>
 		</trader_items>
 	</trader_info>
 	
 	<!-- Rented - Vending Machine -->
-	<trader_info id="5" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" rentable="true" rent_cost="2500" rent_time="30" />		
+	<trader_info id="5" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" rentable="true" rent_cost="0" rent_time="30" />		
 
 
 	<!-- Trader 99/Test, carries a selection of everything -->
